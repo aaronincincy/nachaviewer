@@ -108,7 +108,7 @@ function FileContent({ file, filter }) {
         key={filter}
         height={500}
         itemCount={displayedLines.length}
-        itemSize={i => displayedLines[i].length * 20}
+        itemSize={i => displayedLines[i].length * 19}
       >
         {Block}
       </List>
